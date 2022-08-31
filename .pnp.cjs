@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.7.14"],\
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
+            ["bootstrap", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:5.2.0"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\
             ["next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\
@@ -622,6 +623,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/balanced-match-npm-1.0.2-a53c126459-9706c088a2.zip/node_modules/balanced-match/",\
           "packageDependencies": [\
             ["balanced-match", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["bootstrap", [\
+        ["npm:5.2.0", {\
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.2.0-e6c71ad969-9dbfb5d26b.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "npm:5.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:5.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-0d79fe51ad/0/cache/bootstrap-npm-5.2.0-e6c71ad969-9dbfb5d26b.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:5.2.0"],\
+            ["@popperjs/core", null],\
+            ["@types/popperjs__core", null]\
+          ],\
+          "packagePeers": [\
+            "@popperjs/core",\
+            "@types/popperjs__core"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2136,6 +2159,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:18.7.14"],\
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
+            ["bootstrap", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:5.2.0"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\
             ["next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\

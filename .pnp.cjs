@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/memory-cache", "npm:0.2.2"],\
             ["@types/node", "npm:18.7.14"],\
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
@@ -318,6 +319,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",\
           "packageDependencies": [\
             ["@types/json5", "npm:0.0.29"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/memory-cache", [\
+        ["npm:0.2.2", {\
+          "packageLocation": "./.yarn/cache/@types-memory-cache-npm-0.2.2-3007fbf022-f2c9182432.zip/node_modules/@types/memory-cache/",\
+          "packageDependencies": [\
+            ["@types/memory-cache", "npm:0.2.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2176,6 +2186,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["nextjs-api-request", "workspace:."],\
+            ["@types/memory-cache", "npm:0.2.2"],\
             ["@types/node", "npm:18.7.14"],\
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\

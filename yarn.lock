@@ -230,6 +230,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/memory-cache@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@types/memory-cache@npm:0.2.2"
+  checksum: f2c9182432057f0034f6acb69d0c6f1df58adaeb970749444b86834325018a24cb7dedfbdc4086d859497167fc82a06538f80354cfccdc6a3f011af80bc75697
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:18.7.14":
   version: 18.7.14
   resolution: "@types/node@npm:18.7.14"
@@ -1724,6 +1731,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-api-request@workspace:."
   dependencies:
+    "@types/memory-cache": ^0.2.2
     "@types/node": 18.7.14
     "@types/react": 18.0.18
     "@types/react-dom": 18.0.6

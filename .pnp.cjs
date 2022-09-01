@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["classnames", "npm:2.3.1"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\
+            ["memory-cache", "npm:0.2.0"],\
             ["next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:18.2.0"],\
@@ -2024,6 +2025,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["memory-cache", [\
+        ["npm:0.2.0", {\
+          "packageLocation": "./.yarn/cache/memory-cache-npm-0.2.0-7b21b32987-255c87fec3.zip/node_modules/memory-cache/",\
+          "packageDependencies": [\
+            ["memory-cache", "npm:0.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["merge2", [\
         ["npm:1.4.1", {\
           "packageLocation": "./.yarn/cache/merge2-npm-1.4.1-a2507bd06c-7268db63ed.zip/node_modules/merge2/",\
@@ -2173,6 +2183,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["classnames", "npm:2.3.1"],\
             ["eslint", "npm:8.23.0"],\
             ["eslint-config-next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\
+            ["memory-cache", "npm:0.2.0"],\
             ["next", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:12.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:18.2.0"],\

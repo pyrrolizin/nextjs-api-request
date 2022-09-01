@@ -1574,6 +1574,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"memory-cache@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "memory-cache@npm:0.2.0"
+  checksum: 255c87fec360ce06818ca7aeb5850d798e14950a9fcea879d88e1f8d1f4a6cffb8ed16da54aa677f5ec8e47773fbe15775a1cdf837ac190e17e9fb4b71e87bee
+  languageName: node
+  linkType: hard
+
 "merge2@npm:^1.3.0, merge2@npm:^1.4.1":
   version: 1.4.1
   resolution: "merge2@npm:1.4.1"
@@ -1724,6 +1731,7 @@ __metadata:
     classnames: ^2.3.1
     eslint: 8.23.0
     eslint-config-next: 12.2.5
+    memory-cache: ^0.2.0
     next: 12.2.5
     react: 18.2.0
     react-dom: 18.2.0

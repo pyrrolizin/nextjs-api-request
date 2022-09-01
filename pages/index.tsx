@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import CurrentWeather from '../components/currentweather'
 
 const Home: NextPage = () => {
   return (
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         which accesses an external API and caches the result in a cache.</p>
       <p>This comes with a responsive template using Bootstrap.</p>
       <h2 className="pt-3">Weather in Stuttgart</h2>
-      <div className="weather_info text-center h2">current_weather</div>
+      <div className="weather_info text-center h2"><CurrentWeather /></div>
     </>
   )
 }

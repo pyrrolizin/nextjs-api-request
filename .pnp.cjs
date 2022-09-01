@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.6"],\
             ["@types/memory-cache", "npm:0.2.2"],\
             ["@types/node", "npm:18.7.14"],\
             ["@types/react", "npm:18.0.18"],\
@@ -291,6 +292,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nodelib/fs.walk", "npm:1.2.8"],\
             ["@nodelib/fs.scandir", "npm:2.1.5"],\
             ["fastq", "npm:1.13.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@popperjs/core", [\
+        ["npm:2.11.6", {\
+          "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.11.6-5bcdc104bd-47fb328cec.zip/node_modules/@popperjs/core/",\
+          "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -651,7 +661,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-0d79fe51ad/0/cache/bootstrap-npm-5.2.0-e6c71ad969-9dbfb5d26b.zip/node_modules/bootstrap/",\
           "packageDependencies": [\
             ["bootstrap", "virtual:4dd382db8c448dcf43ffda3cfd42eb68132bb4e63e6b2bfa7cc7fcb31850dd7fa779e994c543aadc8fd24babff2cec641f29eaba72f0affc07e01d4d7bb3d67c#npm:5.2.0"],\
-            ["@popperjs/core", null],\
+            ["@popperjs/core", "npm:2.11.6"],\
             ["@types/popperjs__core", null]\
           ],\
           "packagePeers": [\
@@ -2186,6 +2196,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["nextjs-api-request", "workspace:."],\
+            ["@popperjs/core", "npm:2.11.6"],\
             ["@types/memory-cache", "npm:0.2.2"],\
             ["@types/node", "npm:18.7.14"],\
             ["@types/react", "npm:18.0.18"],\

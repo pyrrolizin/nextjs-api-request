@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Next.js Request Demo</h1>
-      <p>This page is a demo project and template for a development of a Server Side Renderer (SSR) project using Flask,
+      <p>This page is a demo project and template for a development of a Next.js project,
         which accesses an external API and caches the result in a cache.</p>
       <p>This comes with a responsive template using Bootstrap.</p>
       <h2 className="pt-3">Weather in Stuttgart</h2>

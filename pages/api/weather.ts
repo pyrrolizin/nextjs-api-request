@@ -8,7 +8,7 @@ const { publicRuntimeConfig } = getConfig()
 async function fetchWithCache(url: string, mins: number) {
   const value = cacheData.get(url);
   if (value) {
-    console.log("CACHED VALUE!");
+    console.log("Value loaded from cache.");
     return value;
   } else {
     const res = await fetch(url);
@@ -25,7 +25,6 @@ export default async function handler(
 ) {
   const url = `https://api.openweathermap.org/data/2.5/weather?q=Stuttgart,de&units=metric&APPID=${process.env.API_KEY}`
   const min = publicRuntimeConfig.minutescache;
-  console.warn(min);
   const data = await fetchWithCache(url, min);
 
   return res.status(200).json(data);

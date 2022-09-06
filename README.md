@@ -27,6 +27,14 @@ tbd
 * Node.js >= 16
 * Yarn > 3
 
+## Install
+
+Yarn installs the suitable swc binary for `@next/swc`.
+
+```sh
+yarn
+```
+
 ### Environment varaibles
 
 You can set the following environment variables:
